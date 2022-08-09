@@ -1,3 +1,12 @@
+from builtins import print as _print
+from sys import _getframe
+
+# 自定义print辅助函数，打印显示行号，方便以后观察
+def print(*arg, **kw):
+    s = f'{_getframe(1).f_lineno} 行：'# 注此处需加参数 1。
+    return _print(f"{s}", *arg, **kw)
+
+# ===================================================================
 
 # 打印
 print("永远的 Hello World!")
