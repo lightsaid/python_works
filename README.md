@@ -4,3 +4,5 @@
 
 - hello_world.py -> 第1、2章
 - lists.py -> 第3、4章
+- if.py -> 第5章
+- dict.py -> 第6章
