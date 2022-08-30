@@ -6,3 +6,6 @@
 - lists.py -> 第3、4章
 - if.py -> 第5章
 - dict.py -> 第6章
+- input_while.py -> 第7章
+- funcs -> 第8章
+- classes -> 第9章
